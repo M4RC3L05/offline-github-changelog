@@ -19,6 +19,12 @@ offline-github-changelog > CHANGELOG.md
 
 # with a different remote
 offline-github-changelog --remote=myremote > CHANGELOG.md
+
+# with the max number of commits per release
+offline-github-changelog --commits 3 > CHANGELOG.md
+
+# with a negative number of commits to show all per release
+offline-github-changelog --commits -1 > CHANGELOG.md
 ```
 
 ### Releases
